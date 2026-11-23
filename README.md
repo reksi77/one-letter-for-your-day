@@ -13,6 +13,10 @@ letter to `/output/entry.txt`, nothing else.
 node main.ts
 ```
 
+The program guards its own input: it exits non-zero unless the letter is
+exactly one capital letter A–Z, so it can never write an entry the gate
+would reject for length.
+
 ## The letter: U, for "unhinged"
 
 The judge only ever sees the letter, so the whole entry is a bet on which
